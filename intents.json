@@ -1,0 +1,362 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "Vijayalakshmi mam_location",
+            "patterns": [
+                "Vijayalakshmi mam",
+                "where can I find Vijayalakshmi mam",
+                "where will Vijayalakshmi mam be",
+                "where is the cabin of Vijayalakshmi mam",
+                "where does Vijayalakshmi mam work"
+            ],
+            "responses": [
+                "Vijayalakshmi mam can be found in the 1st Floor",
+                "Vijayalakshmi mam, Professor, works in the 1st Floor"
+            ]
+        },
+        {
+            "tag": "Narasimha sir_location",
+            "patterns": [
+                "Narasimha sir",
+                "where can I find Narasimha sir",
+                "where will Narasimha sir be",
+                "where is the cabin of Narasimha sir",
+                "where does Narasimha sir work"
+            ],
+            "responses": [
+                "Narasimha sir can be found in the 2nd Floor",
+                "Narasimha sir, Assistant Professor, works in the 2nd Floor"
+            ]
+        },
+        
+        {
+            "tag": "Babu sir_location",
+            "patterns": [
+                "Babu sir",
+                "where can I find Babu sir",
+                "where will Babu sir be",
+                "where is the cabin of Babu sir",
+                "where does Babu sir work"
+            ],
+            "responses": [
+                "Babu sir can be found in the 3rd Floor",
+                "Babu sir, Head of Department, works in the 3rd Floor"
+            ]
+        },
+        {
+            "tag": "Akshay_location",
+            "patterns": [
+                "Akshay",
+                "where can I find Akshay",
+                "where will Akshay be",
+                "where is the cabin of Akshay",
+                "where does Akshay work"
+            ],
+            "responses": [
+                "Akshay can be found in the AIML classroom",
+                "Akshay, Student, works in the AIML classroom"
+            ]
+        },
+        {
+            "tag": "Rahul_location",
+            "patterns": [
+                "Rahul",
+                "where can I find Rahul",
+                "where will Rahul be",
+                "where is the cabin of Rahul",
+                "where does Rahul work"
+            ],
+            "responses": [
+                "Rahul can be found in the AIML classroom",
+                "Rahul, Student, works in the AIML classroom"
+            ]
+        },
+        {
+            "tag": "Aayaan_location",
+            "patterns": [
+                "Aayaan",
+                "where can I find Aayaan",
+                "where will Aayaan be",
+                "where is the cabin of Aayaan",
+                "where does Aayaan work"
+            ],
+            "responses": [
+                "Aayaan can be found in the AIML classroom",
+                "Aayaan, Student, works in the AIML classroom"
+            ]
+        },
+        {
+            "tag": "Granth_location",
+            "patterns": [
+                "Granth",
+                "where can I find Granth",
+                "where will Granth be",
+                "where is the cabin of Granth",
+                "where does Granth work"
+            ],
+            "responses": [
+                "Granth can be found in the AIML classroom",
+                "Granth, Student, works in the AIML classroom"
+            ]
+        },
+        {
+            "tag": "Aryaveer_location",
+            "patterns": [
+                "Aryaveer",
+                "where can I find Aryaveer",
+                "where will Aryaveer be",
+                "where is the cabin of Aryaveer",
+                "where does Aryaveer work"
+            ],
+            "responses": [
+                "Aryaveer can be found in the AIML classroom",
+                "Aryaveer, Student, works in the AIML classroom"
+            ]
+        },
+        {
+            "tag": "Agneya_location",
+            "patterns": [
+                "Agneya",
+                "where can I find Agneya",
+                "where will Agneya be",
+                "where is the cabin of Agneya",
+                "where does Agneya work"
+            ],
+            "responses": [
+                "Agneya can be found in the AIML classroom",
+                "Agneya, Student, works in the AIML classroom"
+            ]
+        },
+        {
+            "tag": "Sridhar_location",
+            "patterns": [
+                "Sridhar",
+                "where can I find Sridhar",
+                "where will Sridhar be",
+                "where is the cabin of Sridhar",
+                "where does Sridhar work"
+            ],
+            "responses": [
+                "Sridhar can be found in the AIML classroom",
+                "Sridhar, Student, works in the AIML classroom"
+            ]
+        },
+        {
+            "tag": "Menon_location",
+            "patterns": [
+                "Menon",
+                "where can I find Menon",
+                "where will Menon be",
+                "where is the cabin of Menon",
+                "where does Menon work"
+            ],
+            "responses": [
+                "Menon can be found in the AIML classroom",
+                "Menon, Student, works in the AIML classroom"
+            ]
+        },
+        {
+            "tag": "Mahendra_location",
+            "patterns": [
+                "Mahendra",
+                "where can I find Mahendra",
+                "where will Mahendra be",
+                "where is the cabin of Mahendra",
+                "where does Mahendra work"
+            ],
+            "responses": [
+                "Mahendra can be found in the AIML classroom",
+                "Mahendra, Student, works in the AIML classroom"
+            ]
+        },
+        {
+            "tag": "Vijayalakshmi mam_designation",
+            "patterns": [
+                "Vijayalakshmi mam",
+                "Who is Vijayalakshmi mam",
+                "What does Vijayalakshmi mam do?",
+                "In which department does Vijayalakshmi mam work for?"
+            ],
+            "responses": [
+                "Vijayalakshmi mamworks as Professor."
+            ]
+        },
+        {
+            "tag": "Narasimha sir_designation",
+            "patterns": [
+                "Narasimha sir",
+                "Who is Narasimha sir",
+                "What does Narasimha sir do?",
+                "In which department does Narasimha sir work for?"
+            ],
+            "responses": [
+                "Narasimha sirworks as Assistant Professor."
+            ]
+        },
+        
+        {
+            "tag": "Babu sir_designation",
+            "patterns": [
+                "Babu sir",
+                "Who is Babu sir",
+                "What does Babu sir do?",
+                "In which department does Babu sir work for?"
+            ],
+            "responses": [
+                "Babu sirworks as Head of Department."
+            ]
+        },
+        {
+            "tag": "Akshay_designation",
+            "patterns": [
+                "Akshay",
+                "Who is Akshay",
+                "What does Akshay do?",
+                "In which department does Akshay work for?"
+            ],
+            "responses": [
+                "Akshayworks as Student."
+            ]
+        },
+        {
+            "tag": "Rahul_designation",
+            "patterns": [
+                "Rahul",
+                "Who is Rahul",
+                "What does Rahul do?",
+                "In which department does Rahul work for?"
+            ],
+            "responses": [
+                "Rahulworks as Student."
+            ]
+        },
+        {
+            "tag": "Aayaan_designation",
+            "patterns": [
+                "Aayaan",
+                "Who is Aayaan",
+                "What does Aayaan do?",
+                "In which department does Aayaan work for?"
+            ],
+            "responses": [
+                "Aayaanworks as Student."
+            ]
+        },
+        {
+            "tag": "Granth_designation",
+            "patterns": [
+                "Granth",
+                "Who is Granth",
+                "What does Granth do?",
+                "In which department does Granth work for?"
+            ],
+            "responses": [
+                "Granthworks as Student."
+            ]
+        },
+        {
+            "tag": "Aryaveer_designation",
+            "patterns": [
+                "Aryaveer",
+                "Who is Aryaveer",
+                "What does Aryaveer do?",
+                "In which department does Aryaveer work for?"
+            ],
+            "responses": [
+                "Aryaveerworks as Student."
+            ]
+        },
+        {
+            "tag": "Agneya_designation",
+            "patterns": [
+                "Agneya",
+                "Who is Agneya",
+                "What does Agneya do?",
+                "In which department does Agneya work for?"
+            ],
+            "responses": [
+                "Agneyaworks as Student."
+            ]
+        },
+        {
+            "tag": "Sridhar_designation",
+            "patterns": [
+                "Sridhar",
+                "Who is Sridhar",
+                "What does Sridhar do?",
+                "In which department does Sridhar work for?"
+            ],
+            "responses": [
+                "Sridharworks as Student."
+            ]
+        },
+        {
+            "tag": "Menon_designation",
+            "patterns": [
+                "Menon",
+                "Who is Menon",
+                "What does Menon do?",
+                "In which department does Menon work for?"
+            ],
+            "responses": [
+                "Menonworks as Student."
+            ]
+        },
+        {
+            "tag": "Mahendra_designation",
+            "patterns": [
+                "Mahendra",
+                "Who is Mahendra",
+                "What does Mahendra do?",
+                "In which department does Mahendra work for?"
+            ],
+            "responses": [
+                "Mahendraworks as Student."
+            ]
+        }
+    ]
+}
